@@ -14,6 +14,7 @@ class Doctor
   
   def new_appointment(date)
     
+    #Song.new(name, self, genre)
   end
   
 end
