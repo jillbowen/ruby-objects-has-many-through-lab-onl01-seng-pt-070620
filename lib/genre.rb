@@ -13,14 +13,14 @@ class Genre
   end
   
   def songs 
-    Songs.all.select |song|
+    Song.all.select |song|
       song.self
     end
   end
   
   def artists
     songs.collect do |song|
-      artist.song
+      Artist.song
   end
   
 end
